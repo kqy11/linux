@@ -1,0 +1,28 @@
+https://blog.csdn.net/weixin_44657888/article/details/134817128
+
+1.awk命令简介
+AWK 是一种处理文本文件的语言，是一个强大的文本分析工具。
+之所以叫 AWK 是因为其取了三位创始人 Alfred Aho，Peter Weinberger, 和 Brian Kernighan 的 Family Name 的首字符
+linux中有三剑客之称：
+三剑客之首就是 AWK
+三剑客功能:
+grep ： 过滤文本
+sed  :  修改文本
+awk  :  处理文本
+
+2.awk作用
+awk主要是用来格式化
+
+3.awk的语法格式
+awk [参数] [处理内容] [操作对象]
+
+4.解析awk使用方法
+print	: 打印
+NF		: 统计总字段数
+$		: 取值
+结合作用:
+	$配合NF使用 : NF内存储统计文件内每行的总字段，$存储NF内的值
+	NF	：相当于 变量值	$	：相当于 变量名
+	print相当于打印 $ 内的内容
+
+......
